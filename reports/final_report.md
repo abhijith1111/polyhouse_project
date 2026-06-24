@@ -107,6 +107,16 @@ Residual analysis was performed to evaluate prediction errors.
 Residuals are randomly distributed around zero, indicating consistent model performance.
 
 ---
+## Model Performance
+
+The Random Forest model was selected as the Champion Model based on its evaluation results.
+
+Performance Metrics
+
+- Mean Absolute Error (MAE): **(your MAE value)**
+- R² Score: **(your R² value)**
+
+The Random Forest model achieved better performance than the Linear Regression model and was selected for deployment.
 
 ## Feature Importance
 
@@ -219,26 +229,3 @@ git commit -m "Final Project"
 
 git push origin main
 ```
-## Correlation Heatmap
-
-![Correlation Heatmap](figures/corr_heatmap.png)
-
-## Scatter Plot
-
-![Scatter Plot](figures/scatter_yield.png)
-
-## Predicted vs Actual
-
-![Predicted vs Actual](figures/pred_vs_actual.png)
-
-## Residual Plot
-
-![Residual Plot](figures/residuals_linear.png)
-
-## Feature Importance
-
-![Feature Importance](figures/rf_importance.png)
-
-## Streamlit Application
-
-![Streamlit App](figures/screenshots/streamlit_app.png)
