@@ -1,3 +1,4 @@
+from logger import log_prediction
 import streamlit as st
 from predict import predict_yield
 
@@ -56,3 +57,12 @@ if st.button("Predict Yield"):
         label="Estimated Daily Yield",
         value=f"{prediction:.2f} kg"
     )
+    
+prediction = predict_yield(temp, humid, co2)
+
+log_prediction(
+    temp,
+    humid,
+    co2,
+    prediction
+)
