@@ -6,7 +6,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🍄 Polyhouse Yield Predictor")
+st.title(" 🍄 Polyhouse Yield Predictor")
 
 st.caption(
     "Predict oyster mushroom yield using environmental sensor readings"
